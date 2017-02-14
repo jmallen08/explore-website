@@ -42,7 +42,7 @@ if(isset($_POST['email'])) {
  
         !isset($_POST['telephone']) ||
  
-        !isset($_POST['comments'])) {
+        !isset($_POST['message'])) {
  
         died('We are sorry, but there appears to be a problem with the form you submitted.');       
  
@@ -120,7 +120,7 @@ if(isset($_POST['email'])) {
  
     $email_message .= "Telephone: ".clean_string($telephone)."\n";
  
-    $email_message .= "Comments: ".clean_string($comments)."\n";
+    $email_message .= "Message: ".clean_string($message)."\n";
  
      
  
