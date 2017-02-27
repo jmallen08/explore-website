@@ -4,5 +4,14 @@
   },
   "hosting": {
     "public": "public"
-  }
+  },
+  "redirects": [ {
+    "source" : "https://www.getexploreapp.com",
+    "destination" : "https://www.getexploreapp.com/index.html",
+    "type" : 301
+    }, {
+    "source" : "https://getexploreapp.com",
+    "destination" : "https://www.getexploreapp.com/index.html",
+    "type" : 301
+  } ]
 }
