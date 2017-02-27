@@ -3,9 +3,9 @@
     "rules": "database.rules.json"
   },
   "hosting": {
-    "public": "public"
-  },
-  "redirects": [ {
+    "public": "public",
+
+    "redirects": [ {
     "source" : "https://www.getexploreapp.com",
     "destination" : "https://www.getexploreapp.com/index.html",
     "type" : 301
@@ -14,4 +14,6 @@
     "destination" : "https://www.getexploreapp.com/index.html",
     "type" : 301
   } ]
+  }
+  
 }
